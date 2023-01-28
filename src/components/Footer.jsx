@@ -1,7 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link } from "react-scroll";
 
@@ -78,28 +77,20 @@ const Footer = () => {
         </Typography>
 
         <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-        <Link rel="noopener noreferrer" href="https://github.com/AHarikaran/" className="link" target="_blank">
+        <a rel="noopener noreferrer" href="https://github.com/AHarikaran/" className="link" target="_blank">
           <GitHubIcon sx={{ mr: 2, color: "white" }} />
-          </Link>
+          </a>
           <Typography variant="body2" sx={{ color: "white", my: 1 }}>
             GitHub
           </Typography>
         
         </Box>
 
-        <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-        <Link rel="noopener noreferrer" href="https://github.com/AHarikaran/" className="link" target="_blank">
-          <EmailIcon sx={{ mr: 2, color: "white" }} />
-        </Link>  
-          <Typography variant="body2" sx={{ color: "white", my: 1 }}>
-            Email
-          </Typography>
-        </Box>
 
         <Box sx={{ display: "flex", alignItems: "center", cursor: "pointer" }}>
-        <Link rel="noopener noreferrer" href="https://www.linkedin.com/in/aphilash-harikaran-079292132" className="link" target="_blank">
+        <a rel="noopener noreferrer" href="https://www.linkedin.com/in/aphilash-harikaran-079292132" className="link"  target="_blank">
           <LinkedInIcon sx={{ mr: 2, color: "white" }} />
-        </Link>
+        </a>
           <Typography variant="body2" sx={{ color: "white", my: 1 }}>
             LinkedIn
           </Typography>

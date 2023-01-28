@@ -1,3 +1,4 @@
+import { Google } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -12,7 +13,7 @@ import { Box } from "@mui/system";
 import React from "react";
 
 
-const Project = ({ title, description, tags, img }) => {
+const Project = ({ title, description, tags, img, source }) => {
   return (
 <>
     <Card sx={{ maxWidth: 375, margin: "1rem", backgroundColor:"black", border: "3px solid silver" }}>
@@ -37,13 +38,18 @@ const Project = ({ title, description, tags, img }) => {
             mb: 3,
           }}
         >
+          
           <Button
             size="small"
             style={{ backgroundColor: "grey" }}
             variant="contained"
+            href={source}
           >
+            <a href={source}>
             Source Code
+            </a>
           </Button>
+          
         </Box>
 
         <Box
@@ -57,7 +63,7 @@ const Project = ({ title, description, tags, img }) => {
           }}
         >
           {tags.map((tag) => (
-            <Chip label={tag} variant="outlined" key={tag} />
+            <Chip label={tag} color="secondary" variant="outlined" key={tag} />
           ))}
         </Box>
       </CardActions>

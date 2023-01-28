@@ -27,6 +27,7 @@ const ProjectGroup = () => {
             description={project.description}
             tags={project.tags}
             img={project.image}
+            src={project.source}
           />
         ))}
       </Box>

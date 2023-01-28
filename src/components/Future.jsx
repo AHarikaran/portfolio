@@ -1,4 +1,4 @@
-import { Box, Typography, List, ListItem, ListItemText, Divider, Fade } from "@mui/material";
+import { Box, Typography, List, ListItem, ListItemText, Divider } from "@mui/material";
 import ScrollTrigger from 'mui-scroll-trigger'
 import React from "react";
 
