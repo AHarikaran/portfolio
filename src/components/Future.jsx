@@ -49,9 +49,7 @@ sx = {{
  },
 }}>
       <ListItem  >
-        <Typography>
             Continue learning about state management and lifecyle 
-        </Typography>
       </ListItem>
       <ListItem >
             Gain a better understanding of Node.js and its possible applications
@@ -60,7 +58,7 @@ sx = {{
             Create more extensive projects/ build on the current ones.Use Typescript for any projects moving forward
       </ListItem>
       <ListItem >
-            Get a deeper udnerstanding of Jest/TDD
+            Get a deeper understanding of Jest/TDD in General
       </ListItem>
     </List>
         </Typography>
@@ -101,9 +99,7 @@ sx = {{
  },
 }}>
       <ListItem >
-        <Typography>
             Understand core concepts and engage in a course
-        </Typography>
       </ListItem>
       <ListItem >
             Build further, more complex applications
@@ -147,9 +143,7 @@ sx = {{
  },
 }}>
       <ListItem >
-        <Typography>
             Apply knowledge gained to projects, gain a deeper understanding of the capabilities of this language
-        </Typography>
       </ListItem>
       <ListItem >
             Build further, more complex applications.

@@ -3,7 +3,7 @@ import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 
-import navIcon from "../media/react_logo.png";
+import navIcon from "../media/logo.png";
 
 import { Link } from "react-scroll";
 import { styled } from "@mui/system";

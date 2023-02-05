@@ -1,4 +1,3 @@
-import { Google } from "@mui/icons-material";
 import {
   Button,
   Card,
@@ -14,13 +13,15 @@ import React from "react";
 
 
 const Project = ({ title, description, tags, img, source }) => {
+  
+  
   return (
 <>
     <Card sx={{ maxWidth: 375, margin: "1rem", backgroundColor:"black", border: "3px solid silver" }}>
       <CardActionArea >
         <CardMedia height ="200" component="img" image={img}  />
         <CardContent >
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom  variant="h5" component="div" color = "silver" display = "flex" justifyContent="center" >
             {title}
           </Typography>
           <Typography variant="body2" color="silver">
