@@ -2,7 +2,9 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import { projects } from "../constants/project";
 import Project from "./Project";
+import Csharp from "./csharp";
 import Stack from "./Stack";
+import { csharps } from "../constants/csharp";
 
 const ProjectGroup = () => {
   return (
@@ -11,8 +13,14 @@ const ProjectGroup = () => {
         variant="h3"
         sx={{ color: "silver" , textAlign: "center", mb: 2 }}
       >
-        Current Projects:
+        Projects:
       </Typography>
+      <Typography
+        variant="h4"
+        sx={{ color: "silver" , textAlign: "center", mb: 2 }}
+      >
+        Javascript:
+      </Typography> 
       <Box
         sx={{
           display: "flex",
@@ -31,7 +39,31 @@ const ProjectGroup = () => {
           />
         ))}
       </Box>
-
+      <Typography
+        variant="h4"
+        sx={{ color: "silver" , textAlign: "center", mt: 4 }}
+      >
+        c#:
+      </Typography> 
+      <Box
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          flexWrap: "wrap",
+      
+        }}
+      >
+        {csharps.map((csharp) => (
+          <Csharp
+            key={csharp.id}
+            title={csharp.title}
+            description={csharp.description}
+            tags={csharp.tags}
+            img={csharp.image}
+            src={csharp.source}
+          />
+        ))}
+      </Box>
       <Stack />
     </Box>
   );

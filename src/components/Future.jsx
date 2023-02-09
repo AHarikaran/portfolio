@@ -15,7 +15,7 @@ const Future = () => {
       Development plans
     </Typography>
     </Box>
-<ScrollTrigger onScroll="show" threshold={2000}>
+<ScrollTrigger onScroll="show" threshold={1000}>
 <Box sx={{ maxWidth: "1300px", mx: "auto", my: 12  }}>
 <List sx={{ width: '100%', bgcolor: 'black', border: "3px solid silver", borderRadius:"16px" }}>
 <ListItem alignItems="flex-start">

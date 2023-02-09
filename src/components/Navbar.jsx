@@ -61,7 +61,7 @@ const Navbar = () => {
               Tech Stack
             </Link>
             <Link to="Future" className="link" smooth>
-              Future Plans
+              Development Plans
             </Link>
           </CustomBox>
         </CustomToolbar>

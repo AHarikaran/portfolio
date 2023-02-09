@@ -49,7 +49,7 @@ export const projects = [
     id: 3,
   },
   {
-    title: "ChatRoom - UNFINISHED",
+    title: "ChatRoom",
     description:
       `Project to better understand Typescript, sockets, events and Node.js. Unfinished due to issue with destructuring "messages" object for other users in room to receive - under investigation.`,
     image: chatroom,
@@ -59,7 +59,7 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Tracker App -UNFINISHED",
+    title: "Weight Tracker App",
     description:
       `Weight Tracker App with external authtentication per user/sign up option. Using as a foundation to build a more robust fitness planner website. `,
     image: tracker,

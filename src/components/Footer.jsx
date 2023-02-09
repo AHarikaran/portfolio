@@ -59,7 +59,7 @@ const Footer = () => {
           smooth
           style={{ color: "white", margin: "0.5rem 0", cursor: "pointer" }}
         >
-          Future Plans
+          Development Plans
         </Link>
       </Box>
 
